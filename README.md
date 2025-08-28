@@ -8,15 +8,15 @@ This project provides a robust set of SQL queries designed to **analyze** ```piz
 ## Key Business Questions Answered
 This analysis provides answers to critical business questions, including:
 
-What are the **overall financial performance metrics** (total revenue, average order value)?
+- What are the **overall financial performance metrics** (total revenue, average order value)?
 
-What are the **peak sales periods** (daily and monthly trends)?
+- What are the **peak sales periods** (daily and monthly trends)?
 
-How do **different pizza categories and sizes contribute** to overall sales?
+- How do **different pizza categories and sizes contribute** to overall sales?
 
-Which pizzas are the **most and least popular** by revenue, quantity, and total orders?
+- Which pizzas are the **most and least popular** by revenue, quantity, and total orders?
 
-How can **inventory, marketing, and pricing strategies be optimized** based on sales performance?
+- How can **inventory, marketing, and pricing strategies be optimized** based on sales performance?
 
 ## Key Performance Indicators (KPIs)
 Core business metrics are calculated to provide a quick snapshot of performance:
@@ -141,14 +141,14 @@ ORDER BY Total_Orders ASC;
 ```
 ## Technologies Used
 
-SQL (Transact-SQL): For querying and analyzing data.
+- SQL (Transact-SQL): For querying and analyzing data.
 
-Database Management System: Assumed to be a relational database (e.g., SQL Server, MySQL, PostgreSQL) capable of handling standard SQL functions.
+- Database Management System: Assumed to be a relational database (e.g., SQL Server, MySQL, PostgreSQL) capable of handling standard SQL functions.
 
 ## How to Use (For Technical Reviewers)
 
-To execute these SQL queries, you will need access to a database containing a pizza_sales table. The table should include columns such as ```order_date``` , ```order_id``` , ```total_price``` , ```quantity``` , ```pizza_category``` , ```pizza_size``` and ```pizza_name```.
+- To execute these SQL queries, you will need access to a database containing a pizza_sales table. The table should include columns such as ```order_date``` , ```order_id``` , ```total_price``` , ```quantity``` , ```pizza_category``` , ```pizza_size``` and ```pizza_name```.
 
-Simply copy and paste the desired query into your SQL client and execute. Queries can be adapted with ```WHERE``` clauses for specific filtering (e.g., ```WHERE pizza_category = 'Classic'```)
+- Simply copy and paste the desired query into your SQL client and execute. Queries can be adapted with ```WHERE``` clauses for specific filtering (e.g., ```WHERE pizza_category = 'Classic'```)
 
 
